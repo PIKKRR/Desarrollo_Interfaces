@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastas</title>
+    <style>
+        body {
+            background-color: #f5f5dc;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flexbox;
+            flex-direction: column;
+            align-items: center;
+        }
+        .menu-categories {
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        .breadcrumb {
+            font-size: 0.9em;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .menu-categories a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 1.8em;
+            margin-top: 0;
+        }
+        
+        .pastas {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Pastas</h1>
+    </div>
+    <div class="breadcrumb">
+        <a href="index.html">Inicio</a> &gt; Menú &gt; <a href="especialidades.html">Especialidades</a> &gt; <a href="comidaligera.html">Comida ligera</a> &gt; <a href="variedades.html">Variedades</a>
+    </div>
+    <div>
+        <h2>Pastas</h2>
+    </div>
+    <div class="pastas">
+        <ul>
+            <li>Tallarines</li>
+            <ul>
+                <li>Al tuco</li>
+                <li>Parissiene</li>
+            </ul>
+            <li>Ñoquis de papa caseros</li>
+            <li>Ravioles</li>
+            <ul>
+                <li>Al tuco</li>
+                <li>Al tuco con estofado</li>
+            </ul>
+            <li>Capelettis</li>
+            <ul>
+                <li>Al tuco</li>
+                <li>A la boloñesa</li>
+            </ul>
+            <li>Sorrentinos con estofado</li>
+            <li>Canelones</li>
+            <ul>
+                <li>De verdura y pollo</li>
+                <li>De ricota</li>
+            </ul>
+            <li>Lasaña rellena (para compartir)</li>
+        </ul>
+    </div>
+    <div class="menu-categories">
+        <a href="entradas.html">ENTRADAS</a> |
+        <a href="entradas.html">ENSALADAS</a> |
+        <a href="carnesblancas.html">CARNES BLANCAS</a> |
+        <a href="carnesrojas.html">CARNES ROJAS</a> |
+        <a href="pastas.html">PASTAS</a> |
+        <a href="postres.html">POSTRES</a>
+    </div>
+</body>
+</html>

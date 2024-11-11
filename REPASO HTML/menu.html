@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú</title>
+    <style>
+        body {
+            background-color: #f5f5dc;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flexbox;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 800px;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        .breadcrumb {
+            font-size: 0.9em;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 1.8em;
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.2;
+        }
+
+        .menu-categories {
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .menu-categories a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Menú</h1>
+    </div>
+    <div class="breadcrumb">
+        <a href="index.html">Inicio</a> &gt; Menú &gt; <a href="especialidades.html">Especialidades</a> &gt; <a href="comidaligera.html">Comida ligera</a> &gt; <a href="variedades.html">Variedades</a>
+        <p></p>
+    </div>
+
+    <p>Aquí podrá encontrar una variedad de comidas, organizadas por categorías, para que conozca el tipo de comida que preparamos.<br>Encontrará platos para todos los gustos. Los amantes de la cocina italiana, así como los que gustan de las carnes rojas, podrán deleitarse con nuestro variado menú. Por supuesto, tampoco nos olvidamos de aquellos que desean comer saludablemente o son vegetarianos.</p>
+    <div class="menu-categories">
+        <a href="entradas.html">ENTRADAS</a> |
+        <a href="entradas.html">ENSALADAS</a> |
+        <a href="carnesblancas.html">CARNES BLANCAS</a> |
+        <a href="carnesrojas.html">CARNES ROJAS</a> |
+        <a href="pastas.html">PASTAS</a> |
+        <a href="postres.html">POSTRES</a>
+    </div>
+</body>
+</html>
