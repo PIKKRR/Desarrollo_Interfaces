@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Azul Marino Viajes</title>
-    <script src="js/index.js"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -22,7 +21,7 @@
         <div class="text-content">
             <h2>Este es el titular del div de texto</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-            <a href="#" class="button" id="verMas">Ver más</a>
+            <a class="button" id="verMas">Ver más</a>
         </div>
     </section>
     <section class="section2">
@@ -33,30 +32,19 @@
         <div>
             <img src="/img/Viajes_Donde_Viajes_3.jpg" alt="Playa">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="#" class="button buyButton">Comprar</a>
+            <a class="button buyButton">Comprar</a>
         </div>
         <div>
             <img src="/img/kayak-valencia.jpeg" alt="Kayak">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="#" class="button buyButton">Comprar</a>
+            <a class="button buyButton">Comprar</a>
         </div>
         <div>
             <img src="/img/600x400_viajes-lujo-FOTO-1-White-Dessert-experiencia-Polo-Norte-en-jet-privaso.jpg" alt="Avión">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="#" class="button buyButton">Comprar</a>
+            <a class="button buyButton">Comprar</a>
         </div>
     </section>
-
-    <script>
-        document.getElementById("verMas").addEventListener("click", function() {
-            alert("Más información próximamente");
-        });
-
-        document.querySelectorAll(".buyButton").forEach(button => {
-            button.addEventListener("click", function() {
-                alert("Artículo agregado al carrito");
-            });
-        });
-    </script>
+    <script src="js/index.js"></script>
 </body>
 </html>
