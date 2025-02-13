@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecciona tu destino</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>¿Dónde quieres viajar?</h2>
+        <p id="destino">Selecciona un destino</p>
+        <img id="imagen" src="/wetravel.png" alt="Destino">
+        <br>
+        <select id="selector" onchange="cambiarDestino()">
+            <option value="0">Elige un destino</option>
+            <option value="1">París</option>
+            <option value="2">Londres</option>
+            <option value="3">Nueva York</option>
+            <option value="4">Tokio</option>
+        </select>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

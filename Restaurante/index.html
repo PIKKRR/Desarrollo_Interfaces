@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú del Día</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Opciones del menú del día:</h2>
+        
+        <div class="menu-options">
+            <label for="primer-plato">Primer Plato:</label>
+            <select id="primer-plato" onchange="cambiarImagen('primer-plato', 'imagen-primer-plato')">
+                <option value="">Elegir primer plato</option>
+                <option value="lentejas" data-img="lentejas.jpg">Lentejas con chorizo (3€)</option>
+                <option value="crema" data-img="crema_calabaza.jpg">Crema de calabaza (2€)</option>
+            </select>
+            
+            <div class="image-container">
+                <img id="imagen-primer-plato" src="default_primer.jpg" alt="Imagen del primer plato">
+            </div>
+
+            <label for="segundo-plato">Segundo Plato:</label>
+            <select id="segundo-plato" onchange="cambiarImagen('segundo-plato', 'imagen-segundo-plato')">
+                <option value="">Elegir segundo plato</option>
+                <option value="pollo" data-img="escalope_pollo.jpg">Escalope de pollo (4€)</option>
+                <option value="lubina" data-img="lubina.jpg">Lubina al horno (5€)</option>
+            </select>
+
+            <div class="image-container">
+                <img id="imagen-segundo-plato" src="default_segundo.jpg" alt="Imagen del segundo plato">
+            </div>
+
+            <label for="postre">Postre:</label>
+            <select id="postre" onchange="cambiarImagen('postre', 'imagen-postre')">
+                <option value="">Elegir postre</option>
+                <option value="flan" data-img="flan_huevo.jpg">Flan de huevo (1€)</option>
+                <option value="arroz" data-img="arroz_leche.jpg">Arroz con leche (2€)</option>
+            </select>
+
+            <div class="image-container">
+                <img id="imagen-postre" src="default_postre.jpg" alt="Imagen del postre">
+            </div>
+        </div>
+
+        <div class="discount">
+            <input type="checkbox" id="descuento">
+            <label for="descuento">Consigue un 10% de descuento</label>
+        </div>
+
+        <button>¡A comer!</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

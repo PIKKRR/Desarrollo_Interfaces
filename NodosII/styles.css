@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tabla {
+    display: table;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+.fila {
+    display: table-row;
+}
+
+.celda {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    width: 33%;
+}
